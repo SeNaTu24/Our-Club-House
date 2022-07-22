@@ -1,0 +1,111 @@
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   color: black;
+}
+
+html {
+   max-width: 1500px;
+   margin: 0 auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 1rem;
+
+}
+
+.DesignCase {
+   width: 90%;
+   margin: auto;
+   margin-left: 9rem;
+   margin-top: 9rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.CardSection {
+   width: 50%;
+   background-image: url(./images/bg-pattern-desktop.svg);
+   text-align: center;
+   overflow: visible;
+   background-repeat: repeat;
+   background-size: cover;
+}
+
+.ImageSection {
+   width: 40%;
+   height: 35rem;
+   background-image: url(./images/hero-desktop.jpg);
+
+}
+
+.Heading {
+   font-weight: 600px;
+   margin-left: 10rem;
+   width: 20%;
+   font-family: "Josefin Sans" sans-serif;
+   text-transform: uppercase;
+   line-height: 3em;
+}
+
+#Span {
+   color: hsl(0, 36%, 70%);
+}
+
+.Paragraph {
+   margin: 5rem;
+   padding: 10px;
+   color: hsl(0, 36%, 70%);
+}
+
+.EmailSection {
+   background-color: hsl(0, 36%, 70%);
+   border: none;
+   color: hsl(0, 36%, 70%);
+}
+
+@media (max-width:600px) {
+   body {
+      text-align: center;
+   }
+
+   .DesignCase {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 90%;
+   }
+
+   .ImageSection {
+      width: 90%;
+      height: 30rem;
+      justify-content: flex-start;
+
+   }
+
+   .CardSection {
+      text-align: center;
+      width: 90%;
+   }
+
+   .Paragraph {
+      width: 70%;
+   }
+
+}
