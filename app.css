@@ -136,3 +136,51 @@ li {
    margin: 5px;
    padding: 2rem;
 }
+
+@media (max-width: 600px) {
+   .clubName {
+      text-align: center;
+   }
+
+   .menuBar ul li {
+      color: aliceblue;
+   }
+
+   .menuBar {
+      /* display: flex; */
+      justify-content: space-between;
+      text-align: center;
+      width: 50%;
+      color: aliceblue;
+   }
+
+   nav {
+      /* height: 20rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; */
+      background-size: cover;
+   }
+
+   .Footer {
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      text-align: center;
+   }
+
+   .Box {
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+      text-align: start;
+      width: 100%;
+   }
+
+   #Let {
+      margin: 0 auto;
+   }
+
+   .Section {
+      display: block;
+   }
+}
